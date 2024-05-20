@@ -4,3 +4,4 @@
 # Ignore node_modules folders
 FrontEnd/node_modules/
 Admin/node_modules/
+Backend/node_modules

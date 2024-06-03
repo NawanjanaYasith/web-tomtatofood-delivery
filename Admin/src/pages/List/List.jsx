@@ -2,7 +2,6 @@ import './List.css'
 import {useEffect, useState} from "react";
 import axios from "axios";
 import {toast} from "react-toastify";
-import {assets} from "../../assets/assets.js";
 export default function List({url}){
 
 

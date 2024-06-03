@@ -1,7 +1,7 @@
 import './Sidebar.css'
 import add_icon from '../../assets/add_icon.png'
 import order_icon from '../../assets/order_icon.png'
-import {Link, NavLink} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 export default function Sidebar(){
     return(

@@ -1,6 +1,6 @@
 import './Add.css'
 import upload_area from '../../assets/upload_area.png'
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import axios from "axios";
 import {toast} from "react-toastify";
 export default function Add({url}){

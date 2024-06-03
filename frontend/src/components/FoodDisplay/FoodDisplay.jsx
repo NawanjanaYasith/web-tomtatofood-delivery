@@ -1,10 +1,11 @@
 import './FoodDisplay.css'
-import {useContext} from "react";
+import {useContext,} from "react";
 import {StoreContext} from "../../context/StoreContext.jsx";
 import FoodItem from "../FoodItem/FoodItem.jsx";
 
 export default function FoodDisplay({category}) {
     const {food_list} = useContext(StoreContext);
+
     return (
         <div className={'food-display'} id={'food-display'}>
             <h2>Top dishes near you</h2>

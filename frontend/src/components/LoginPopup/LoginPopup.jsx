@@ -1,9 +1,8 @@
 import './LoginPopup.css'
-import {useContext, useEffect, useState} from "react";
+import {useContext, useState} from "react";
 import {assets} from "../../assets/assets.js";
 import {StoreContext} from "../../context/StoreContext.jsx";
 import axios from "axios";
-import {useNavigate} from "react-router-dom";
 export default function LoginPopup({setShowLogin}){
 
     const {url,setToken}=useContext(StoreContext)
